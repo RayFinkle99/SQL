@@ -1,0 +1,31 @@
+CREATE TABLE cars
+(id INTEGER PRIMARY KEY, 
+model TEXT, 
+year INTEGER,
+price INTEGER, 
+title TEXT);
+
+INSERT INTO cars VALUES 
+    (1, "Impreza", 2004, 2000, "clean"),
+    (2, "WRX", 2004, 7500, "clean"),
+    (3, "STI", 2005, 15000, "clean"),
+    (4, "LEGACY", 2004, 3000, "clean"),
+    (5, "OUTBACK", 2004, 4000, "clean"),
+    (6, "CROSSTRECK", 2015, 13000, "clean"),
+    (7, "CIVIC", 2019, 22000, "flood"),
+    (8, "ACCORD", 2008, 6000, "clean"),
+    (9, "PILOT", 2018, 28000, "clean"),
+    (10, "RIDGELINE", 2015, 19000, "clean"),
+    (12, "RDX", 2018, 24000, "clean"),
+    (13, "NSX", 2017, 112000, "clean"),
+    (14, "EVO IV", 2002, 36000, "clean"),
+    (15, "EVO VIII", 2005, 42000, "flood"); 
+    
+    SELECT * FROM cars;
+    
+    SELECT * FROM cars
+    WHERE year >=2017 AND title ="clean"
+    ORDER BY price asc;
+    
+    
+    
