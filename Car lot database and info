@@ -25,7 +25,7 @@ INSERT INTO cars VALUES
     
     SELECT * FROM cars
     WHERE year >=2017 AND title ="clean"
-    ORDER BY price asc; 
+    ORDER BY price asc;
     
     
     
