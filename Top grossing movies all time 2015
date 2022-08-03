@@ -122,4 +122,4 @@ count(*) AS "Movie_count"
 
 FROM topmovies
 GROUP BY studio
-ORDER BY AVG_DOM_REVENUE_PCT DESC;
+ORDER BY AVG_DOM_REVENUE_PCT DESC; 
